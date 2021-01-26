@@ -12,7 +12,7 @@
     <input type="text" th:field="*{password}" id="password"/><br/>
     <div>
         <th:block th:each="role : ${allRoles}">
-            <div th:text="${role.getName()}"></div>
+            <div th:text="${role.getRole()}"></div>
         </th:block>
     </div>
 

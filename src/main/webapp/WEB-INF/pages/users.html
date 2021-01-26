@@ -27,7 +27,7 @@
         </td>
         <td>
             <th:block th:each="role : ${user.getRoles()}">
-                <a th:href="@{/users/{id}(id=${user.getId()})}" th:text="${role.getName()}"></a><div> </div>
+                <a th:href="@{/users/{id}(id=${user.getId()})}" th:text="${role.getRole()}"></a><div> </div>
             </th:block>
         </td>
         <td>

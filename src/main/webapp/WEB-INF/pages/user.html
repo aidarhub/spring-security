@@ -17,7 +17,7 @@
 <br/>
 <div>Права:</div>
 <th:block th:each="role : ${user.getRoles()}">
-    <div th:text="${role.getName()}"></div>
+    <div th:text="${role.getRole()}"></div>
     <div></div>
 </th:block>
 <form th:action="@{/logout}" method="post">

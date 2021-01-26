@@ -131,7 +131,7 @@
                     <artifactId>maven-war-plugin</artifactId>
                     <version>3.2.2</version>
                     <configuration>
-                        <warSourceDirectory>src/webapp</warSourceDirectory>
+                        <warSourceDirectory>src/main/webapp</warSourceDirectory>
                         <warName>crud_spring_mvc</warName>
                         <failOnMissingWebXml>false</failOnMissingWebXml>
                     </configuration>
